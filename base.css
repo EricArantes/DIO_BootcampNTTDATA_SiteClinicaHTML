@@ -1,0 +1,216 @@
+html, body {
+    margin: 0;
+}
+body {
+    height: 100%;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    margin: 0 auto;
+}
+.main {
+    width: 100%;
+    height: 100vh;
+}
+.menu {
+    width: 10%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    padding: 10px 20px 0px;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(171, 168, 255));
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+}
+.header {
+    background-color: rgb(5, 108, 108);
+    height: 15%;
+
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.icone {
+    width: 15px;
+    height: 15px;
+
+}
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    border-radius: 10px;
+    text-align: center;
+    font-size: larger;
+}
+
+th, td {
+    background-color: #9bb6ff;
+
+
+}
+
+.content {
+    background-color: white;
+    min-height: 300px;
+    height: 100vh;
+    padding: 20px;
+}
+
+.content_element {
+    margin: 0 auto;
+    margin-top: 50px;
+    float: left;
+    height: 100%;
+    width: 30%;
+    padding: 10px;
+}
+
+.table_element {
+    margin: 0 auto;
+    margin-top: 80px;
+    float: right;
+    height: 60%;
+    width: 60%;
+    padding: 10px;
+}
+
+.content_element_sobre {
+    margin: 0 auto;
+    margin-top: 50px;
+    float: right;
+    height: 60%;
+    width: 50%;
+    padding: 10px;
+}
+
+.content_text {
+    text-align: center;    
+}
+
+.content_element_icon {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    width: 100px;
+}
+
+.titulo_content {
+    text-align: center;
+
+}
+
+.maps_endereco {
+    float: right;
+    height: 80%;
+    width: 80%;
+}
+
+.content_element_maps {
+    margin: 0 auto;
+    margin-top: 50px;
+    float: right;
+    height: 60%;
+    width: 50%;
+    padding: 10px;
+    border: 5px solid rgb(214, 214, 255);
+    border-radius: 5px;
+}
+
+.contato_input {
+    width: 100%;
+    height: fit-content;
+    font-size: large;
+    border: 2px solid #f1f1f1;
+    background-color: #9bb6ff;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: rgb(220, 210, 255);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: fit-content;
+    justify-content: space-between;
+    border-style: solid;
+    border-color: #f1f1f1;
+
+}
+
+.footer_box {
+    float: left;
+    margin-right: 5%;
+    margin-left: 3%;
+}
+
+.form_btn {
+    background: #bacaff;
+    color: rgb(25, 0, 255);
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: inherit;
+    height: 40%;
+    width: 40%;
+}
+
+.form_btn:hover {
+    background-color: #e8edff;
+}
+
+.form_btn:focus {
+    outline: none;
+}
+
+.form_btn:active {
+    transform: scale(0.98);
+}
+
+.btn {
+    display: inline-block;
+    background: #bacaff;
+    color: rgb(25, 0, 255);
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: inherit;
+    height: 90%;
+    width: 90%;
+  }
+  
+  .btn:focus {
+    outline: none;
+  }
+
+  .btn:hover {
+    background-color: #e8edff;
+  }
+  
+  .btn:active {
+    transform: scale(0.98);
+  }
+  
+  .btn-block {
+    display: block;
+    width: 100%;
+  }
